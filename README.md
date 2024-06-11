@@ -1,6 +1,6 @@
 ## README TEMA1 - PA
 
-# -------------------- PROBLEMA 1 --------------------------------
+# ----------------------- PROBLEMA 1 ---------------------------
 
 Pentru implementare, am definit mai întâi două funcții cheie: get_min și binary_search. Funcția get_min calculează puterea sistemului, ținând cont de valorile limită de alimentare pentru fiecare server. Această funcție parcurge fiecare server și determină puterea minimă necesară la un anumit nivel de alimentare. 
 
