@@ -1,6 +1,6 @@
 ## README TEMA1 - PA
 
-# ----------------------- PROBLEMA 1 ---------------------------
+ ----------------------- PROBLEMA 1 ---------------------------
 
 Pentru implementare, am definit mai întâi două funcții cheie: get_min și binary_search. Funcția get_min calculează puterea sistemului, ținând cont de valorile limită de alimentare pentru fiecare server. Această funcție parcurge fiecare server și determină puterea minimă necesară la un anumit nivel de alimentare. 
 
@@ -12,7 +12,7 @@ Am folosit o abordare eficientă pentru a găsi această soluție, astfel încâ
 Funcția get_min: complexitatea timp este O(n), unde n este numărul de servere.
 Funcția binary_search: O(logN), unde N este numărul total de posibile valori pentru putere. => O(logN), unde N este numărul total de servere.
 
-# ---------------------------PROBLEMA 2 ---------------------------
+ ---------------------------PROBLEMA 2 ---------------------------
 
 La problema 2, am scris un program care calculează numărul total de modalități de colorare a unor blocuri orizontale și verticale.
 A trebuit să folosesc funcții din biblioteci pentru lucrul cu fișiere și pentru operațiuni de baza, precum și structuri de date, cum ar fi vectorii, pentru a organiza datele.
@@ -31,7 +31,7 @@ Complexitatea de timp a acestui cod este dominată de două bucle for, ambele pa
 A doua buclă - numărul de iterații este tot K. 
 În interiorul acestei bucle, avem operații aritmetice și apeluri la funcția power, care are o complexitate de logaritmică în funcție de valoarea lui y. Prin urmare, complexitatea timp a celei de-a doua bucle for este O(K * log y), unde y este cel mai mare exponent întâlnit în vectorul de blocuri. Complexitatea totală a codului este O(K * log y),  K este numărul de blocuri și y este cel mai mare exponent întâlnit în vectorul de blocuri. => O(K * log y)
 
-# ---------------------------PROBLEMA 3 ---------------------------
+ ---------------------------PROBLEMA 3 ---------------------------
 
 Pentru problema 3, am facut un program pentru a comprima secvențe reprezentate de două vectori, A și B si a verifica daca putem compresa sirurile intr-o lungime maxima astfel incat A == B
 
@@ -41,7 +41,7 @@ Funcția cheie get_res calculează rezultatul bazat pe vectorii A și B furniza�
 
 Funcția get_res: Această funcție conține două bucle for înfășurate. Cele două bucle se execută pentru fiecare element din vectorii A și B, deci avem o complexitate de => O(n * m).
 
-# --------------------------- PROBLEMA 4 ---------------------------
+ --------------------------- PROBLEMA 4 ---------------------------
 
 Pentru rezolvarea exercitiului 4, pentru inceput citesc datele de intrare despre numărul și prețurile produselor dintr-un fișier.
 Apoi, folosesc un algoritm dinamic de programare pentru a calcula costul minim al cumpărăturilor, având în vedere diferite oferte disponibile.
